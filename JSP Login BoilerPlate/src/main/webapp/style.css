@@ -7,8 +7,9 @@
 body {
 	width: 100vw;
 	height: 100vh;
-	background: #080808; background : linear-gradient( 180deg, rgba( 8, 8,
-	8, 1) 0%, rgba( 0, 11, 93, 1) 100%);
+	background: #080808;
+	background: linear-gradient(180deg, rgba(8, 8, 8, 1) 0%,
+		rgba(0, 11, 93, 1) 100%);
 	font-family: Arial, sans-serif;
 	color: #f0f0f0;
 	background: linear-gradient(180deg, rgba(8, 8, 8, 1) 0%,
@@ -25,10 +26,10 @@ body {
 
 .navBar {
 	top: 0;
-	width: 100%; 
+	width: 100%;
 	display: flex;
 	align-items: center;
-	justify-content : space-between;
+	justify-content: space-between;
 	padding: 2rem;
 	border-radius: 0px 0px 2rem 2rem;
 	color: White;
@@ -40,11 +41,9 @@ body {
 	color: white;
 }
 
-
-.navBar ul li a:hover{
-	color : #001EFF;
+.navBar ul li a:hover {
+	color: #001EFF;
 }
-
 
 .navbar h1 {
 	text-decoration: none;
@@ -57,16 +56,14 @@ body {
 	gap: 2rem;
 }
 
-
-
 .footer {
 	position: fixed;
 	bottom: 0;
 	color: white;
 	width: 100%;
 	padding: 2rem;
-	border : 1px solid white;
-	border-bottom : none;
+	border: 1px solid white;
+	border-bottom: none;
 	border-radius: 2rem 2rem 0px 0px;
 	display: flex;
 	flex-direction: column;
@@ -83,14 +80,29 @@ body {
 	color: white;
 }
 
-
-#cloudImg{
-  top : 2rem;
-  left : 1000px;
-  z-index: -1;
-  position: absolute;
+#cloudImg {
+	top: 5.5rem;
+	left: 1000px;
+	z-index: -1;
+	position: absolute;
 }
 
+#cloudImg2 {
+	top: 5rem;
+	left: 1300px;
+	z-index: -1;
+	position: absolute;
+}
+
+#moonImg {
+	transform: rotate(160deg);
+	width: 100px;
+	height: auto̰;
+	top: 5rem;
+	left: 1500px;
+	z-index: -1;
+	position: absolute;
+}
 
 .mainBody {
 	width: 100%;
@@ -115,7 +127,11 @@ body {
 	gap: 2rem;
 	font-size: 1rem;
 	height: 50%;
-	width: 50%;
+	width: 70%;
+}
+
+.login_Table tr {
+	gap: 2rem;
 }
 
 #header_tbl {
@@ -130,8 +146,32 @@ body {
 	font-weight: 900;
 }
 
+.user_pw {
+	height: 2rem;
+	color: white;
+	font-size: 1rem;
+	background: rgba(210, 208, 208, 0.24);
+	border-radius: 14px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(6.5px);
+	-webkit-backdrop-filter: blur(6.5px);
+	border: 1px solid rgba(210, 208, 208, 0.36);
+}
+
 #submit_btn {
-	font_size: 1rem;
+	background: rgba(210, 208, 208, 0.24);
+	border-radius: 14px;
+	border: 1px solid rgba(210, 208, 208, 0.36);
+	color: white;
+	font-size: 0.8rem;
+	border-radius: 10px;
 	width: 70px;
-	height: 25px;
+	height: 28px;
+	transition : 0.5s;
+}
+
+#submit_btn:hover {
+
+	box-shadow : 5px 5px 10px white;
+	
 }
